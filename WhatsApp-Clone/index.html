@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- SOL PANEL (SOHBET LİSTESİ)-->
+      <div class="sidebar">
+        <div class="profile">
+          <img src="assets/profil.jpg" alt="Profil Resmi" />
+          <h2>Ahmet YILMAZ</h2>
+        </div>
+        <input type="text" placeholder="Sohbetlerde Ara" class="search-box" />
+
+        <div class="tab-bar">
+          <button class="tab-button" onclick="openTab(event, 'Tab1')">
+            Sohbetler
+          </button>
+          <button class="tab-button" onclick="openTab(event, 'Tab2')">
+            Okunmamış
+          </button>
+          <button class="tab-button" onclick="openTab(event, 'Tab3')">
+            Favoriler
+          </button>
+          <button class="tab-button" onclick="openTab(event, 'Tab4')">
+            Gruplar
+          </button>
+          
+        </div>
+        <div id="Tab1" class="tab-content">
+          <ul class="chat-list">
+            <li class="chat-item">Sohbetler 1</li>
+            <li class="chat-item">Sohbetler 2</li>
+            <li class="chat-item">Sohbetler 3</li>
+          </ul>
+        </div>
+        <div id="Tab2" class="tab-content">
+          <ul class="chat-list">
+            <li class="chat-item">Okunmamış 1</li>
+            <li class="chat-item">Okunmamış 2</li>
+            <li class="chat-item">Okunmamış 3</li>
+          </ul>
+        </div>
+
+        <div id="Tab3" class="tab-content">
+          <ul class="chat-list">
+            <li class="chat-item">Favoriler 1</li>
+            <li class="chat-item">Favoriler 2</li>
+            <li class="chat-item">Favoriler 3</li>
+          </ul>
+        </div>
+        <div id="Tab4" class="tab-content">
+          <ul class="chat-list">
+            <li class="chat-item">Gruplar 1</li>
+            <li class="chat-item">Gruplar 2</li>
+            <li class="chat-item">Gruplar 3</li>
+          </ul>
+        </div>
+        
+      </div>
+
+      <!-- SAĞ PANEL (SOHBET ALANI)-->
+      <div class="chat-window">
+        <div class="chat-header">Kişi 1</div>
+        <div class="chat-messages">
+          <div class="message-received">Merhaba</div> <br><br>
+          <div class="message-send">Selam !</div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Bir mesaj yazın" />
+          <button>Gönder</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

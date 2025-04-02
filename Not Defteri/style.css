@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+  margin: 50px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.container {
+  background-color: chocolate;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3pc;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  color: bisque;
+  margin: 5px;
+  padding: 5px;
+  position: static;
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  text-align: center;
+}
+.note-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: aqua;
+  color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  background: #fff3cd;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* Sil butonu */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #a82b37de;
+    transform: scale(1.1); /* Sembolü büyütür */
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #ccc;
+    transform: scale(1.1); /* Sembolü büyütür */
+    transition: 0.3s;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Butonlar arasında boşluk */
+    justify-content: flex-end; /* Butonları sağa hizala */
+    
+  }

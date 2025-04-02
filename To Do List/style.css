@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgb(34, 161, 170);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.1);
+}
+
+.container h1{
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+
+input {
+    flex: 1;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 3pc;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1); /* Sembolü büyütür */
+    transition: 0.3s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #fff;
+    margin: 5px 0px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
