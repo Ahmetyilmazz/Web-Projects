@@ -30,11 +30,7 @@ Bu depo, **Html5-CSS-JavaScript ** ile geliştirilmiş farklı projeleri içerme
 ### 3️⃣ **WhatsApp-Clone**
 - **Ekran Görüntüleri:**
 <div align="center">
-  <img src="./todo_sqlite/app_screenshot/Screenshot_1720625162.png" width="250"/>
-  <img src="./todo_sqlite/app_screenshot/Screenshot_1723979305.png" width="250"/>
-  <img src="./todo_sqlite/app_screenshot/Screenshot_1723979352.png" width="250"/>
-  <img src="./todo_sqlite/app_screenshot/Screenshot_1723979362.png" width="250"/>
-  <img src="./todo_sqlite/app_screenshot/Screenshot_1723979365.png" width="250"/>
+  <img src="./WhatsApp-Clone/Ekran Görüntüleri/1.png" width="250"/>
 </div>
 
 ---
